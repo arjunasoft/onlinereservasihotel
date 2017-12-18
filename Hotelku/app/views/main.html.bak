@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta content= http-equiv="content-type">
-    <title>#{get 'title' /}</title>
-    <link rel="stylesheet" media="screen" href="@%7B%27/public/stylesheets/main.css%27%7D">
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>ORH</title>
   </head>
   <body>
-    <div style="text-align: center;">Selamat datang di D'Hotel<br>
-      "Kenyamanan Anda Menjadi Prioritas Kami"</div>
+    <div style="text-align: center;">ONLINE RESERVASI HOTEL<br>
+      "Selamat Datang di D'Hotel"</div>
   </body>
 </html>

@@ -1,0 +1,28 @@
+#{extends 'main.html' /}
+#{set title:'Input Pelanggan' /}
+
+#{form @save()}
+    <input type="hidden" name="Pelanggan.id" value="${Pelanggan?.id}">
+    
+    <p class="field">
+        <label for="NamaPelanggan">Nama:</label>
+        <input type="text" id="nama" name="Pelanggan.NamaPelanggan" value="${Pelanggan?.NamaPelanggan}">
+        <span class="error">${errors.forKey('data_pengguna.nama')}</span>
+    </p>
+
+    <p class="field">
+        <label for="TanggalPemesanan">Alamat:</label>
+        <input type="text" id="TanggalPemesanan" name="Pelanggan.TanggalPemesanan" value="${Pelanggan?.TanggalPemesanan}">
+        <span class="error">${errors.forKey('data_pengguna.alamat')}</span>
+    </p>
+
+    <p class="field">
+        <label for="JumlahKamar">Pekerjaan:</label>
+        <input type="text" id="JumlahKamar" name="Pelanggan.JumlahKamar" value="${Pelanggan?.JumlahKamar}">
+        <span class="error">${errors.forKey('data_pengguna.pekerjaan')}</span>
+    </p>
+
+    <p class="buttons">
+     	<a href="@{list()}">Cancel</a> or <input type="submit" value="Save" id="savePelanggan">
+    </p>
+#{/form}
