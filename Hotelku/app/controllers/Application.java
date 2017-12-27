@@ -11,10 +11,11 @@ import models.*;
 public class Application extends Controller {
 	
     public static void index() {
-    	Date now = new Date();
-        render(now);
+    //	Date now = new Date();
+     //   render(now);
+    	render();
     }
-    public static void list() {
+   /* public static void list() {
         List<Pelanggan> Pelanggan1 = Pelanggan.find("order by NamaPelanggan, TanggalPemesanan").fetch();
         render(Pelanggan1);
     }
@@ -33,5 +34,5 @@ public class Application extends Controller {
             Pelanggan.save();
             list();
         }
-
+*/
     }

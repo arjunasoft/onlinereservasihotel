@@ -14,12 +14,10 @@ public class Pelanggan extends Model {
     public String NamaPelanggan;
     
     @Required
-    public String TanggalPemesanan;
+    public String NomorHP;
     
     @Required
-    public String JumlahKamar;
+    public String Alamat;
 
     
 }
-
-
