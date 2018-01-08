@@ -14,12 +14,9 @@ public class Kamar extends Model {
     public String TipeKamar;
     
     @Required
-    public String BiayaKamar;
-    
-    @Required
     public String NomorKamar;
 
-    @ManyToMany
+    @Required
     public Pelanggan objpelanggan;
 }
 
